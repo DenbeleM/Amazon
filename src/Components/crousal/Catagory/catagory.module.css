@@ -1,0 +1,33 @@
+.parent {
+  position: relative;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+.card {
+  height: 350px;
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  max-width: 100%;
+  object-fit: contain;
+  max-height: 250px;
+  padding: 0px 10px;
+}
+.card h4,
+.card p {
+  margin-left: 15px;
+  padding: 5px;
+}
+.card p {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(9, 132, 209);
+}
+.card a {
+  text-decoration: none;
+  color: rgb(135, 135, 135);
+}

@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  background: #131921;
+  align-items: center;
+  color: white;
+  height: 70px;
+  gap: 10px;
+}
+.header__logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+.header__logoContainer img {
+  width: 80%;
+  padding-top: 5px;
+  margin-left: 20px;
+  vertical-align: center;
+}
+.delivery {
+  display: flex;
+  gap: 3;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-weight: bold;
+}
+.delivery p {
+  font-size: 10px;
+}
+.search {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.search input,
+.search select {
+  padding: 10px;
+  font-weight: bold;
+  outline: none;
+}
+.search select {
+  border: none;
+}
+.search input {
+  width: 100%;
+  margin-left: -20px;
+  border: 1px solid white;
+}
+.search svg {
+  padding: 2px;
+  background-color: #febd69;
+  color: #555;
+}
+.search svg:hover {
+  color: black;
+}
+
+.order {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10;
+}
+.order a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+.order p {
+  font-size: 10px;
+}
+.language {
+  width: 100px;
+  display: flex;
+  padding: 10px;
+}
+.language img {
+  width: 40%;
+}
+.language select {
+  color: white;
+  background: #000;
+  border: none;
+}
+.cart {
+  position: relative;
+}
+.cart span {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  left: 16px;
+  color: orange;
+  background: #1a1a1a;
+}
+.delivery:hover,
+.language:hover,
+.order a:hover,
+.lower_header ul li:hover,
+.header__logoContainer a:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.lower_header {
+  background: #232f3e;
+  color: white;
+}
+.lower_header ul {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  gap: 3;
+}
+.lower_header ul li {
+  padding: 8px;
+}
+.lower_header ul li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 2;
+}
